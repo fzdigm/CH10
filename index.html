@@ -6,21 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css"> 
-    <style>
-        h2 {
-            color: rgb(255, 0, 200);
-        } 
-        </style>
 </head>
 <body>
     <!-- Every header, (except for the first h1) will all be a h2! Change the style of each h2 using an -- external -- stylesheet. -->
 
 
 <h1 >Using CSS</h1>
-<h2 style="color: rgb(76, 0, 255);">Hi there! This is my first time using CSS. Crazy, right!? Really excited to be adding some style to my HTML.</h2> 
 
+<div class="firstParagraph">
+<p>Hi there! This is my first time using CSS. Crazy, right!? Really excited to be adding some style to my HTML.</p>
+</div>
 <!-- wrap in a div and give the div a class of "firstParagraph" and the css rules to add in CSS: make it {color: purple;} , {font-size: 25px;} and {background-color: green;} as seen on page 236 for color and background color - you DO NOT need to use "rgb" as seen on the page, just use regular color names -->
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quidem, dicta, vel ex sapiente, labore iste quaerat quas fugiat amet dolor officiis nobis doloremque eos praesentium aliquam suscipit voluptatibus explicabo?</p>
+
+
 
 <h2>What about you? Have you tried CSS?</h2>
 
@@ -35,10 +33,11 @@
 <li>font-size</li>
 </ul>
 
-<h2>Let's do some more styling!</h2>
+<h2 style="color: purple !important;">Let's do some more styling!</h2>
 
 <!-- write the styling for the header above "inline" and use !important on making purple in "color" as seen on page  239 -- here is the code (style="color: purple !important;") but write this code into the opening h2 tag -->
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quaerat accusamus vero eos ullam, error nemo adipisci porro, illum at, ad harum ratione. Reiciendis, molestias. Eos, placeat? Minima, temporibus nihil.
+
 <!-- add a div around the h2 and p tag below and make the border 10px solid and blue -->
 
 <h2>This is another h2!</h2>
@@ -47,13 +46,20 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quaerat accusamu
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quaerat accusamus vero eos ullam, error nemo adipisci porro, illum at, ad harum ratione. Reiciendis, molestias. Eos, placeat? Minima, temporibus nihil.
 <!-- p tag should be the color red and be 20px -->
 <!-- add some break tags here -->
+<br /><br /><br />
+
+
+
 <!-- add a div around the h2 and p tag below and make the background-color purple-->
+<div>
+<h2 id="myId">This is another h2!</h2>
 
-<h2>This is another h2!</h2>
-
-<!-- this header should use an #id named "myId" be green in color, 30px, with a border of 4px solid and red 
+<!-- this header should use an #id named "myId" be green in color, 30px, with a border of 4px solid and red -->
+<p>    
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quaerat accusamus vero eos ullam, error nemo adipisci porro, illum at, ad harum ratione. Reiciendis, molestias. Eos, placeat? Minima, temporibus nihil.
+</p>
 <!-- p tag should be the color red and be 20px -->
+</div>
 
 </body>
 </html>
