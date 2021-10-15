@@ -2,18 +2,31 @@ h1 {
     font-size: 60px;
 }
 
+
 .firstParagraph {
     color: purple;
     font-size: 25px;
     background-color: green;
 }
 
+.headerTwo {
+    color: brown;
+    font-size: 35px;
+    background-color: pink;
+
+}
+
+#specialHeader {
+    color: green;
+    font-size: 30px;
+    border: 4px solid red;
+}
+ul {
+    border: 2px solid orange;
+}
+
 li {
     font-size: 18px;
     color: red;
-}
-
-ul {
-    border: 2px solid orange;
 }
 
