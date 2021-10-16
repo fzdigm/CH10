@@ -1,9 +1,10 @@
 h1 {
     font-size: 60px;
 }
+
 h2 {
     font-family: 'Times New Roman', Times, serif;
-    color: crimson;
+    color:mediumblue
 }
 
 .firstParagraph {
@@ -28,6 +29,7 @@ h2 {
 ul {
     border: 2px solid orange;
 }
+
 li {
     font-size: 18px;
     color: red;
